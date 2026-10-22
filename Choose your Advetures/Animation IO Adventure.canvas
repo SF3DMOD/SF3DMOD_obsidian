@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"83461d624f90cf45","type":"text","text":"Do you know Blender?","x":-45,"y":-700,"width":250,"height":60},
+		{"id":"824da2b9e581cc29","type":"text","text":"I know Blender!","x":-100,"y":-540,"width":160,"height":60},
+		{"id":"c395dc16b08164ea","type":"text","text":"Actually, no","x":180,"y":-570,"width":200,"height":60},
+		{"id":"ab6e67abb1c636ce","type":"text","text":"Blender is a Free and Open Source software for 3D modelling.\n**User manual:** https://docs.blender.org/manual/en/latest/","x":240,"y":-480,"width":500,"height":100},
+		{"id":"149665c617aa59b2","type":"text","text":"Do concepts like Armature, Bone, Pose Mode, etc. - sound scary?","x":-45,"y":-320,"width":340,"height":100},
+		{"id":"0cf58a0e9bbb2c18","type":"text","text":"No","x":180,"y":-150,"width":115,"height":60},
+		{"id":"1c965fccec5b8907","type":"text","text":"Yes","x":-45,"y":-150,"width":115,"height":60},
+		{"id":"1eed259b331895f6","type":"text","text":"[[Blender Animation Knowledge.base|Page: Blender Animation Knowledge]]","x":-440,"y":-150,"width":330,"height":60},
+		{"id":"3e4673dcd6854d52","x":-440,"y":0,"width":1180,"height":60,"color":"1","type":"text","text":"# THIS IS WIP"},
+		{"id":"83da2b79e2a5aaba","type":"text","text":"# THIS IS WIP","x":-440,"y":-800,"width":1180,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"ffb635a713e45874","fromNode":"83461d624f90cf45","fromSide":"bottom","toNode":"824da2b9e581cc29","toSide":"top"},
+		{"id":"0aa923e61ba562a7","fromNode":"83461d624f90cf45","fromSide":"bottom","toNode":"c395dc16b08164ea","toSide":"top"},
+		{"id":"ee04a22e3cb65b23","fromNode":"824da2b9e581cc29","fromSide":"bottom","toNode":"149665c617aa59b2","toSide":"top"},
+		{"id":"c92408b3c36e6565","fromNode":"c395dc16b08164ea","fromSide":"right","toNode":"ab6e67abb1c636ce","toSide":"top"},
+		{"id":"44bdc6bf6418becf","fromNode":"ab6e67abb1c636ce","fromSide":"bottom","toNode":"149665c617aa59b2","toSide":"right"},
+		{"id":"21be6da990ba042f","fromNode":"149665c617aa59b2","fromSide":"bottom","toNode":"0cf58a0e9bbb2c18","toSide":"top"},
+		{"id":"bce3728a8e19a846","fromNode":"149665c617aa59b2","fromSide":"bottom","toNode":"1c965fccec5b8907","toSide":"top"},
+		{"id":"9de045083a91c6e2","fromNode":"1c965fccec5b8907","fromSide":"left","toNode":"1eed259b331895f6","toSide":"right"}
+	]
+}
