@@ -1,0 +1,8 @@
+views:
+  - type: list
+    name: View
+    filters:
+      and:
+        - file.hasTag("software/blender")
+        - or:
+            - file.hasTag("topics/animation")
